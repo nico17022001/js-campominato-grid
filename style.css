@@ -45,5 +45,10 @@ button:hover{
 }
 
 .back-color-box-click{
-  background-color: chartreuse;
+  background-color: blue;
 }
+
+.hide-number {
+  font-size: 0;
+}
+
