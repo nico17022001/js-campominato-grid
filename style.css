@@ -22,9 +22,9 @@
   flex-wrap: wrap;
 }
 
-button{
+#livelli{
   width: 200px;
-  height: 100px;
+  height: 50px;
   background-color: aquamarine;
   font-size: large;
   cursor: pointer;
@@ -43,6 +43,29 @@ button:hover{
   justify-content: center;
   align-items: center;
 }
+
+.casellaMedia{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.casellaDiff{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .back-color-box-click{
   background-color: blue;
