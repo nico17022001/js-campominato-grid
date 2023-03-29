@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(109, 47, 255);
+}
+
+#gridcontainer{
+  width: 600px;
+  height: 600px;
+  background-color: cornflowerblue;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button{
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+  font-size: large;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:rgba(127, 255, 212, 0.829) ;
+}
+
+.casella{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-color-box-click{
+  background-color: chartreuse;
+}
