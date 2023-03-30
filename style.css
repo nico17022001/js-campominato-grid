@@ -54,7 +54,6 @@ button:hover{
   align-items: center;
 }
 
-
 .casellaDiff{
   width: calc(100% / 7);
   height: calc(100% / 7);
@@ -65,8 +64,6 @@ button:hover{
   align-items: center;
 }
 
-
-
 .back-color-box-click{
   background-color: blue;
 }
@@ -75,3 +72,25 @@ button:hover{
   font-size: 0;
 }
 
+#comand{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#start{
+  width: 200px;
+  height: 50px;
+  background-color: yellow;
+  font-size: large;
+  cursor: pointer;
+}
+
+#reset{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
